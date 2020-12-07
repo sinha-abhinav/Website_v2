@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Big John';
+  src: url('../fonts/BIG\ JOHN.otf');
+}
+
+@font-face {
+  font-family: 'Big John PRO';
+  src: url('../fonts/BigJohnPRO-Regular.otf');
+}
+
+@font-face {
+  font-family: 'Big John PRO Light';
+  src: url('../fonts/BigJohnPRO-Light.otf');
+}
+
+@font-face {
+  font-family: 'Lora SemiBold';
+  src: url('../fonts/Lora-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: 'VLANÈLLA';
+  src: url('../fonts/VLANÈLLA.ttf');
+}
