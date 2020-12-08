@@ -22,3 +22,19 @@
   font-family: 'VLANÈLLA';
   src: url('../fonts/VLANÈLLA.ttf');
 }
+
+@font-face {
+  font-family: 'Balsamiq Sans';
+  src: url('../fonts/BalsamiqSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Balsamiq Sans-Bold';
+  src: url('../fonts/BalsamiqSans-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'ACaslon-Semi-Bold';
+  src: url('../fonts/ACaslonPro-Semibold.otf');
+}
+
