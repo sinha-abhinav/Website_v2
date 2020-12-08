@@ -75,15 +75,19 @@
   font-weight: bold;
   font-size: 18px;
   text-transform: uppercase;
-  color: rgb(89, 3, 100);
+  color: rgb(0, 0, 0);
   display: inline-block;
 }
 
 .publications:hover {
   /* color: #2b7a78; */
-  color: #044480;
+  color: #922c2a;
 }
 
 .publications.active {
-  color: #044480;
+  color: #922c2a;
+}
+
+.best-paper {
+  color: #922c2a;
 }
