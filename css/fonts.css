@@ -38,3 +38,23 @@
   src: url('../fonts/ACaslonPro-Semibold.otf');
 }
 
+@font-face {
+  font-family: 'Dosis-Medium';
+  src: url('../fonts/Dosis-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Dosis-SemiBold';
+  src: url('../fonts/Dosis-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: 'Dosis-Bold';
+  src: url('../fonts/Dosis-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Dosis-ExtraBold';
+  src: url('../fonts/Dosis-ExtraBold.ttf');
+}
+

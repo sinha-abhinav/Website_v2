@@ -3,8 +3,7 @@
   overflow: hidden;
   /* border: 1px solid #ccc;
   background-color: #f1f1f1; */
-  margin-left: 37%;
-  margin-bottom: 2%;
+  margin: 0 0 2% 35%;
 }
 
 .tablinks {
@@ -55,3 +54,21 @@
   text-align: center;
   color: #922c2a;
 }
+
+/* @media screen and (max-width: 479px) {
+  .tab {
+    margin: 0 0 2% 21%;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .tab {
+    margin: 0 0 2% 14%;
+  }
+}
+
+@media screen and (max-width: 799px) {
+  .tab {
+    margin: 0 0 2% 26%;
+  }
+} */
