@@ -28,18 +28,18 @@
   cursor: pointer;
   padding: 14px 16px;
   transition: 0.3s;
-  color: rgb(89, 3, 100);
+  color: rgb(0, 0, 0);
   /* font-size: 17px; */
 }
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  color: #044480;
+  color: #922c2a;
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-  color: #044480;
+  color: #922c2a;
 }
 
 /* Style the tab content */
