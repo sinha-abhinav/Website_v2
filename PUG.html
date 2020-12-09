@@ -205,54 +205,25 @@
         <div class="container">
           <div class="section-heading title-style7">
             <h4 class="no-margin-bottom" style="font-family: Lora SemiBold;">
-              Multiagent Pursuit-Evasion
+              Consensus over Pseudo-undirected Graphs
             </h4>
           </div>
-          <p style="font-family: Balsamiq Sans; font-size: 24px;">
-            The context of multiagent pursuit-evasion is an important aspect in robotics, aerospace 
-            and control engineering, and path planning. In multi-vehicle pursuit-evasion scenarios, 
-            the pursuer (incoming threat to the evader) tries to minimize its relative
-            distance with respect to the evader (targeted vehicle). On the other hand, the evader 
-            attempts to throw the pursuer off its trail and deploys a defending interceptor (defender) 
-            to assist in avoiding possible capture by the pursuer. The evader,
-            therefore, cooperates with the defender, which attempts to neutralize the pursuer, 
-            before the pursuer can capture the  evader. In this regard, the evader and the defender are a 
-            cooperating team, while the pursuer is in the opposition.
+          <p style="font-family: Big John PRO; font-size: 24px;">
+            In a multiagent system, some agents will have larger initial state values, while others may have smaller initial state values.
+            The distributed leaderless framework with undirected graphs can only ensure a consensus value which is at the average of the 
+            agents' initial states. Sometimes, this may emerge as a restrictive requirement. One way to tackle this is to adopt a leader-follower scheme, 
+            and providing a wide range of arbitrary reference values to the leader. That said, the situation becomes over-dependent on a single agent. In either
+            case, some agents do not affect the consensus value. We focus on a fully distributed cooperative behavior that also guarantees interception at values which
+            are not at the average of the agents' initial states. With the proposed nature of interaction, each agent has a stake in the consensus value.
+             Physical constraints on actuators, such as bounded lateral acceleration of vehicles, are also respected when agents are connected over the proposed pseudo-undirected graph.
           </p>
           <p>
-           The last decade has witnessed substantial advancements in the area of guidance and control of 
-           interceptors. Sophisticated interceptors pose a serious threat to the survival of civilian as 
-           well as military vehicles. Consequently, significant efforts had been devoted to extend the 
-           protection capabilities of the targeted vehicle, which may respond to the incoming threat by 
-           performing evasive maneuvers, deploying electronic countermeasures, flares, and decoys. While 
-           the aforementioned survival tactics employed by the targeted vehicle are passive, an active 
-           protection strategy would involve launching a defending interceptor (or a swarm of defenders) 
-           against the adversary. This is a useful requirement particularly in such scenarios where the 
-           targeted vehicle has some constraints on its route, or is carrying a load, such as goods or people, 
-           heading for search and rescue, etc. The resulting three-player engagement scenarios are different 
-           from the the traditional one-to-one engagements, and present a formidable challenge in the design 
-           of defense strategy, as the evader-defender team may use different levels of cooperation to 
-           neutralize the threats.
+            <img src="img/pugCycle.png">
           </p>
           <p>
-            <img src="img/enggeo-1.png">
-          </p>
-          <p>
-            Our research proposes an impact-time control based cooperative guidance approach to defend 
-            the evader from the pursuer. If the defender intercepts the pursuer before the latter gets a 
-            chance to come in the vicinity of the evader, the mission can be deemed a success. 
-            The evader-defender team can use various levels of cooperation to achieve this objective, 
-            depending on the availability of communication resources and desired simplicity during the 
-            implementation. The evader aligns itself on the collision course with the pursuer to lure the 
-            latter, and launches the defender against it. Once on the collision course, the pursuer is 
-            expected to become non-maneuvering, and the time of interception for the pursuer-evader engagement 
-            can be estimated with a reasonable accuracy. The defender can then intercept the non-maneuvering 
-            pursuer at a suitable impact-time, which is sufficiently lesser than the estimated time-to-go of the 
-            pursuer-evader engagement, even if the evader does not continuously communicate its states to the 
-            defender. On the other hand, if the evader communicates with the defender, then explicit time-to-go 
-            information may not be necessary, and the defender can intercept the pursuer with a pre-specified time 
-            margin. This time margin may be chosen to ensure safe distance between pursuer and evader, at the time 
-            instant when the defender intercepts the pursuer.
+            A pseudo-undirected cycle with hetereogeneous (non-zero) weights. Each $w_{ij} \neq w_{ji}$ and 
+             $w_{ij}w_{ji} = 0$ if and only if $w_{ij}=0$ and $w_{ji}=0$.
+            </p>
           </p>
         </div>
       </section>
