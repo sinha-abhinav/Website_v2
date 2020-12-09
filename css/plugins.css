@@ -36922,6 +36922,11 @@ header {
   max-height: 43px;
   transition-duration: 0.5s;
 }
+
+.navbar-brand h6 {
+  transition: 0.5s;
+  color: #000;
+}
 .navbar-header-custom {
   padding: 22px 0 20px 0;
 }

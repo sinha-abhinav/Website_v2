@@ -42,7 +42,7 @@
   });
   $('.scroll-to-top').on('click', function (event) {
     event.preventDefault();
-    $('html, body').animate({ scrollTop: 0 }, 600);
+    $('html, body').animate({ scrollTop: 550 }, 600);
   });
   var pageSection = $('.parallax,.bg-img');
   pageSection.each(function (indx) {
