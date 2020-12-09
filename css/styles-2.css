@@ -12739,3 +12739,7 @@ pre[class*='language-'] {
   color: #282b2d;
   text-decoration: none;
 }
+
+.work-together:hover {
+  color: #0000aa;
+}
