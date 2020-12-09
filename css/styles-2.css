@@ -3850,7 +3850,6 @@ h6.title-style2.white {
   background: linear-gradient(-180deg, transparent, #000 116%);
   z-index: 0;
   width: 100%;
-  /* height: 50%; */
 }
 .services-block6 .service-desc {
   position: absolute;
@@ -3859,6 +3858,7 @@ h6.title-style2.white {
   padding: 30px 35px 40px;
   width: 100%;
 }
+
 @media screen and (max-width: 1199px) {
   .services-block6 .service-desc {
     padding: 30px 25px 30px;
@@ -12742,4 +12742,35 @@ pre[class*='language-'] {
 
 .work-together:hover {
   color: #0000aa;
+}
+
+/* research */
+.column2 {
+  float: left;
+  width: 50%;
+  padding: 45px;
+}
+
+.column3 {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+.column4 {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+ul.list>li:before {
+  content: "";
+  display: list-item;
+  position: absolute;
 }
