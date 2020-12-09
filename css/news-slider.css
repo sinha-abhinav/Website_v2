@@ -86,7 +86,7 @@ h3.h3 {
 .post-slide8 .post-title {
   margin: 0 0 10px 0;
 }
-.post-slide8 .post-title a {
+.post-slide8 .post-title p {
   font-size: 16px;
   font-weight: 700;
   font-family: VLANÈLLA;
@@ -95,13 +95,13 @@ h3.h3 {
   text-transform: capitalize;
   transition: all 0.3s ease 0s;
 }
-.post-slide8 .post-title a:hover {
+/* .post-slide8 .post-title a:hover {
   text-decoration: none;
   color: #2a8ae2;
-}
+} */
 .post-slide8 .post-description {
-  font-size: 14px;
-  font-family: Big John PRO;
+  font-size: 16px;
+  font-family: Dosis-Medium;
   line-height: 24px;
   color: grey;
 }
