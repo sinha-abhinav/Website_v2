@@ -1,12 +1,3 @@
-/*-----------------------------------------------------------------------------------
-
-    Theme Name: Crizal - Multipurpose Responsive + Admin
-    Description: Multipurpose Responsive + Admin
-    Author: Chitrakoot Web
-    Version: 3.0
-        
-    ---------------------------------- */
-
 (function ($) {
   'use strict';
   var $window = $(window);
@@ -21,6 +12,7 @@
     var logowhitedark = $('.navbar-brand.logowhite-dark img');
     var logo2 = $('.navbar-brand.logo2 img');
     var logo3 = $('.navbar-brand.logo3 img');
+    var logo4 = $('.navbar-brand.logo4 h6');
     if (scroll <= 50) {
       $('header').removeClass('scrollHeader').addClass('fixedHeader');
       logoinner.attr('src', 'img/logos/logo-inner.png');
@@ -29,6 +21,7 @@
       logowhitedark.attr('src', 'img/logos/logo-white.png');
       logo2.attr('src', 'img/logos/logo-2-light.png');
       logo3.attr('src', 'img/logos/logo-2-dark.png');
+      logo4.attr('style', 'margin-top: 7%; text-transform: uppercase; font-family: Big John; color: #fff');
     } else {
       $('header').removeClass('fixedHeader').addClass('scrollHeader');
       logoinner.attr('src', 'img/logos/logo.png');
@@ -37,6 +30,7 @@
       logowhitedark.attr('src', 'img/logos/logo-dark.png');
       logo2.attr('src', 'img/logos/logo-2-dark.png');
       logo3.attr('src', 'img/logos/logo-2-dark.png');
+      logo4.attr('style', 'margin-top: 7%; text-transform: uppercase; font-family: Big John; color: #000');
     }
   });
   $window.on('scroll', function () {
